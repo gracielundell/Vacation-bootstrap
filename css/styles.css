@@ -5,6 +5,10 @@
 .jumbotron {
 }
 
+.shadow {
+  text-shadow: 10px 10px 20px grey;
+}
+
 .nav a {
   font-size: 30px;
   color: white;
@@ -16,9 +20,26 @@ a:hover {
 
 img {
   width: 700px;
-  height: 600px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .header {
   text-align: center;
+}
+
+.carousel-indicators {
+  bottom: 0;
+}
+.carousel-indicators .active {
+  background-color: #3366ff;
+}
+.carousel-indicators li {
+  border-color: #3366ff;
+}
+
+#myCarousel {
+  height: 500px;
 }
