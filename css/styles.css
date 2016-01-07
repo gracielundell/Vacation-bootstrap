@@ -13,3 +13,12 @@
 a:hover {
   color: #3366ff;
 }
+
+img {
+  width: 700px;
+  height: 600px;
+}
+
+.header {
+  text-align: center;
+}
