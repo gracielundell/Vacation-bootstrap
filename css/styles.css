@@ -1,3 +1,15 @@
+.container {
+
+}
+
 .jumbotron {
-  border: 20px solid black;
+}
+
+.nav a {
+  font-size: 30px;
+  color: white;
+  font-family: serif;
+}
+a:hover {
+  color: #3366ff;
 }
